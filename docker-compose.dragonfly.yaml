@@ -11,6 +11,7 @@ services:
     expose:
       - 6379
     volumes:
+      - ".:/mnt/ddev_config"
       - "dragonfly:/data"
     ulimits:
       memlock: -1
