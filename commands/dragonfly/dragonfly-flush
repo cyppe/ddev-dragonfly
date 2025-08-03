@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+#ddev-generated
+## Description: Flush all cache inside the Dragonfly container
+## Usage: dragonfly-flush
+## Example: "ddev dragonfly-flush"
+
+# Dragonfly is Redis-compatible, just connect directly
+redis-cli -p 6379 -h dragonfly FLUSHALL ASYNC
