@@ -1,8 +1,5 @@
 ## DDEV Dragonfly
 
-> [!NOTE]
-> This is a pure Dragonfly addon optimized for maximum performance and simplicity.
-
 ## Overview
 
 [Dragonfly](https://dragonflydb.io/) is a modern in-memory datastore, fully compatible with Redis and Memcached APIs. It delivers up to 25x more throughput and 80% memory efficiency compared to Redis.
@@ -52,11 +49,3 @@ If you need to customize Dragonfly parameters, you can modify the `docker-compos
 - **Optimal memory usage** (Dragonfly's built-in optimization)
 
 The addon uses the official Dragonfly image: `docker.dragonflydb.io/dragonflydb/dragonfly`
-
-## Credits
-
-**Originally contributed by [@hussainweb](https://github.com/hussainweb) based on the original [ddev-contrib recipe](https://github.com/ddev/ddev-contrib/tree/master/docker-compose-services/redis) by [@gormus](https://github.com/gormus)**
-
-**Migrated to Dragonfly for enhanced performance while maintaining Redis compatibility**
-
-**Maintained by the [DDEV team](https://ddev.com/support-ddev/)**
