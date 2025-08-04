@@ -9,7 +9,7 @@ This add-on integrates Dragonfly into your [DDEV](https://ddev.com/) project wit
 ## Installation
 
 ```bash
-ddev add-on get ddev/ddev-redis
+ddev add-on get cyppe/ddev-dragonfly
 ddev restart
 ```
 
